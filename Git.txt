@@ -1,3 +1,10 @@
-Inicio Aula Git
+Comandos GIT
 
-Alteração
+git init (Iniciar o controle de versão).
+git branch -m master main (Passa branch para main).
+git status (Verifica alterações no projeto).
+git add . (Para inserir um arquivo na proxima versão) ou git add nomedoarquivo.extensão.
+git commit -m "xxx" (Para gerar uma nova versão).
+
+git  log (Lista todos oscommits).
+git reset --hard <id do commit> (Volta o projeto para uma versão).
