@@ -20,3 +20,12 @@ git  log (Lista todos oscommits).
 git reset --hard <id do commit> (Volta o projeto para uma versão).
 ----------------------------------------------
 git reset --hard~1 (Volta 1 versão, ~2 volta 2 versões...).
+----------------------------------------------
+git clone (endereço do repositório).
+----------------------------------------------
+git remote (o proprio github gera esse comando quando criamos o repositorio)
+----------------------------------------------
+git push -u origin main (subir para o remoto)
+----------------------------------------------
+git pull (verifica se a versao local esta igual a versao do remoto)
+----------------------------------------------
