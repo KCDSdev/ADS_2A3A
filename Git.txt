@@ -1,4 +1,4 @@
-Comandos GIT
+***Comandos GIT***
 
 ----------------------------------------------
 git init (Iniciar o controle de versão).
@@ -19,4 +19,4 @@ git  log (Lista todos oscommits).
 ----------------------------------------------
 git reset --hard <id do commit> (Volta o projeto para uma versão).
 ----------------------------------------------
-git reset --hard~1 (Volta 1 versão, ~2 volta 2 versões...);
+git reset --hard~1 (Volta 1 versão, ~2 volta 2 versões...).
