@@ -1,0 +1,68 @@
+SELECT employee_id, last_name, job_id, salary FROM hr.employees ORDER BY last_name
+    
+SELECT employee_id, last_name, job_id, salary FROM hr.employees ORDER BY last_name ASC
+    
+SELECT employee_id, last_name, job_id, salary FROM hr.employees ORDER BY last_name DESC
+
+--EXEMPLO 04
+SELECT last_name || 'POSSUI O ID' || employee_id || 'E GANHA' || salary || 'POR MÊS' AS "CONCATENADO" FROM hr.employees
+
+--EXEMPLO 05
+
+SELECT MIN(salary) FROM hr.employees
+SELECT MAX(salary) FROM hr.employees
+SELECT AVG(salary) FROM hr.employees
+SELECT SUM(salary), MIN(salary), MAX(salary), AVG(salary) FROM hr.employees
+SELECT salary FROM hr.employees ORDER BY salary
+SELECT COUNT(*) FROM hr.employees
+SELECT COUNT(*) FROM hr.employees WHERE department_id = 10
+
+--EXEMPLO 06
+
+SELECT * FROM hr.employees
+SELECT department_id, AVG(salary) FROM hr.employees GROUP BY department_id ORDER BY department_id
+
+
+---------------------------------------------------------------------------------------------------------
+-----------------------------------------Exercicio 1-----------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+SELECT * FROM hr.employees
+SELECT MIN(salary) FROM hr.employees
+SELECT MAX(salary) FROM hr.employees
+SELECT AVG(salary) FROM hr.employees
+SELECT job_id, SUM(salary) FROM hr.employees GROUP BY job_id
+SELECT department_id, AVG(salary) FROM hr.employees GROUP BY department_id
+SELECT AVG(salary) FROM hr.employees WHERE department_id > 80 
+SELECT manager_id, MIN(salary) FROM hr.employees WHERE manager_id IS NOT NULL AND salary > 6000 GROUP BY manager_id ORDER BY manager_id DESC
+
+
+---------------------------------------------------------------------------------------------------------
+-----------------------------------------Exercicio 2-----------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
+CREATE TABLE Funcionarios
+(
+    cd_func NUMBER(10),
+    nm_func VARCHAR(30),
+    idade NUMBER(2)
+);
+
+--IMPLICITO, OMITE-SE OS CAMPOS, OU SEJA, OS DADOS SÃO ENVIADOS NA ORDEM QUE OS CAMPOS FORAM CRIADOS
+INSERT INTO Funcionarios VALUES (1,'Luiz',40);
+INSERT INTO Funcionarios VALUES (2,'Kleber',30);
+
+DELETE Funcionario
+
+SELECT * FROM Funcionarios
+
+--EXMPLICITO(INFORMAR OS CAMPOS)
+INSERT INTO Funcionarios (cd_func, nm_funcm, idade)VALUES(3, 'PAULO' 22);
+INSERT INTO Funcionarios (nm_func,cd_func, idade)VALUES('Jose', 4, 72);
+INSERT INTO Funcionarios (cd_func, nm_func)VALUES(5, 'Fabio');
+
+
+
+
+
+ 
+
