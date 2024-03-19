@@ -29,3 +29,5 @@ git push -u origin main (subir para o remoto)
 ----------------------------------------------
 git pull (verifica se a versao local esta igual a versao do remoto)
 ----------------------------------------------
+
+Teste

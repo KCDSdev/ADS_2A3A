@@ -33,3 +33,4 @@ function classificarIMC(argIMC){
 retornoIMC = calcularIMC(80,1.68);
 console.log(retornoIMC);  
 classificarIMC(retornoIMC);
+
