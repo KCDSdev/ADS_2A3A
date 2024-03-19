@@ -31,3 +31,11 @@ git pull (verifica se a versao local esta igual a versao do remoto)
 ----------------------------------------------
 
 Teste 19_03_24_____Eai?
+
+Procedimento.....
+1°-Cria uma pasta
+2°-Inicia GIT
+3°-Clonar repositório (Necessário apontar local e criar token)
+4°-Entra na pasta clonada e inicia o GIT
+5°-Alterações local
+6°-Roda git push -u origin main
