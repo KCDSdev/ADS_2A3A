@@ -3,9 +3,9 @@
 ----------------------------------------------
 git init (Iniciar o controle de versão).
 ----------------------------------------------
-git config --global user.name "Kleber Caetano" (Atualizar nome de usuário).
+git config --global user.name "Kleber Caetano" (Atualizar nome de usuário).(Caso esteja em maquina compartilhada)
 ----------------------------------------------
-git config --global user.email "klebercaetano@outlook.com" (Atualizar email de usuário).
+git config --global user.email "klebercaetano@outlook.com" (Atualizar email de usuário).(Caso esteja em maquina compartilhada)
 ----------------------------------------------
 git branch -m master main (Passa branch para main).
 ----------------------------------------------
@@ -21,7 +21,7 @@ git reset --hard <id do commit> (Volta o projeto para uma versão).
 ----------------------------------------------
 git reset --hard~1 (Volta 1 versão, ~2 volta 2 versões...).
 ----------------------------------------------
-git clone (endereço do repositório).
+1° - git clone (endereço do repositório).
 ----------------------------------------------
 git remote (o proprio github gera esse comando quando criamos o repositorio)
 ----------------------------------------------
